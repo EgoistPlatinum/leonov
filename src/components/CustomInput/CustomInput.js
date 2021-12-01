@@ -36,6 +36,8 @@ export const CustomInput = (props) => {
     return (
         <>
             <input type={inputType} value={value} onChange={onChangeInput}/>
+
+
         </>
     )
 }
