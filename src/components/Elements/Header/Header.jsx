@@ -28,7 +28,6 @@ const Header = () => {
   return (
     <div>
       <CustomInput value={value} onChange={onChange} type="number" />
-
     </div>
   );
 };
