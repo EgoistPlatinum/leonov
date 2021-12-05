@@ -5,7 +5,7 @@ import React from "react";
  * @typedef {Object} CustomInputProps - props
  * @property {string|number} value - InputValue
  * @property {(params: { value: string | number }) => void} onChange - onChange_CB
- * @property {string} type - Type_Input
+ * @property {string=} type - Type_Input
  */
 
 /**
