@@ -1,6 +1,7 @@
 // @ts-check
 
 import React from "react";
+import "./Header.css"
 
 import { CustomInput } from "../../CustomInput/CustomInput";
 
@@ -26,8 +27,8 @@ const Header = () => {
   );
 
   return (
-    <div>
-      <CustomInput value={value} onChange={onChange} type="number" />
+    <div className="header">
+      <CustomInput value={value} onChange={onChange} type="text" />
     </div>
   );
 };

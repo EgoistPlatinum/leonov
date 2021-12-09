@@ -1,0 +1,25 @@
+.form1 {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  overflow: hidden;
+}
+
+.input1 {
+  height: inherit;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  font: inherit;
+  font-size: 15px;
+  background-color: #fff;
+}
+
+.btn {
+  height: inherit;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  outline: none;
+  cursor: pointer;
+}
