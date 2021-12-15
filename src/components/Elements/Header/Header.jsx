@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <div className="header">
-      <CustomInput value={value} onChange={onChange} type="text" />
+      <CustomInput value={value} onChange={onChange} type="text" autoComplete="off"/>
     </div>
   );
 };
