@@ -1,4 +1,6 @@
 {
+  "plugins": ["stylelint-scss"],
+  "customSyntax": "postcss-scss",
   "extends": [
     "stylelint-config-standard",
     "stylelint-config-property-sort-order-smacss"
